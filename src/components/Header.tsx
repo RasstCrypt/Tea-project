@@ -24,7 +24,7 @@ export default function Header() {
               
             }}
             onConnect={(wallet) => {
-              console.log("Wallet connected:", wallet.account.address);
+              console.log("Wallet connected:", );
               toast.success('Wallet connected successfully!');
             }}
             onDisconnect={() => {

@@ -1,7 +1,7 @@
 {
-  "name": "nft-landing",
+  "name": "nft-rast",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -24,8 +24,24 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
+    "pino-pretty": "^13.0.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  }
+  },
+  "description": "The project Nft landing page using thirdweb sdk",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RasstCrypt/Tea-project.git"
+  },
+  "keywords": [
+    "Tea-testnet"
+  ],
+  "author": "Rastcrypt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RasstCrypt/Tea-project/issues"
+  },
+  "homepage": "https://github.com/RasstCrypt/Tea-project#readme"
 }

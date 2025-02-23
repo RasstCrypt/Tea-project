@@ -1,6 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
+// Remove the unused import
+// import { motion } from 'framer-motion';
 
 export default function NFTCounter() {
   return (

@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { ClaimButton } from "thirdweb/react";
 import { client, teaAssamChain } from '../lib/config';
 import toast from 'react-hot-toast';
@@ -36,10 +37,12 @@ export default function Hero() {
           </ClaimButton>
         </div>
         <div className="mt-8 md:mt-0">
-          <img 
+          <Image 
             src="/giphy.gif" 
             alt="NFT Cat Carrier" 
-            className="w-96 h-96 object-contain"
+            width={500}
+            height={500}
+            unoptimized
           />
         </div>
       </div>

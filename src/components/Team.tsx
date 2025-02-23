@@ -1,4 +1,5 @@
 'use client';
+import Image from "next/image";
 
 const teamMembers = [
   {
@@ -26,9 +27,11 @@ export default function Team() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
             <div key={index} className="bg-gray-800 rounded-lg p-6">
-              <img
+              <Image
                 src={member.image}
                 alt={member.name}
+                width={192}
+                height={192}
                 className="w-48 h-48 mx-auto rounded-lg mb-4"
               />
               <h3 className="text-xl font-bold">{member.name}</h3>
